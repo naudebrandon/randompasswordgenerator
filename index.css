@@ -1,3 +1,73 @@
+.container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 6, 14);
+    padding: 20px;
+    width: 350px;
+}
+
 body {
     margin: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading{
+    font-size: 1.5rem;
+    margin: auto;
+    color: white;
+}
+
+#sub-heading{
+    font-size: 1.5rem;
+    margin: auto;
+    color: rgb(233, 224, 141);
+}
+
+#sub-script{
+    font-size: 0.9rem;
+    margin: 3px auto;
+    color: white;
+}
+
+#generate-password-btn{
+    margin-top: 1.3em;
+    background-color: rgb(230, 218, 114);
+    color: white;
+    padding: 8px;
+    font-size: 0.9rem;
+}
+
+.inner-container{
+    background-color: rgb(6, 6, 78);
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.passwords{
+    display: flex;
+    justify-items: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-top: 1px solid white;
+}
+
+#password-one{
+    background-color: rgb(39, 39, 100);
+    padding: 5px;
+    margin: 5px 12px;
+    color: rgb(230, 218, 114);
+    font-size: 11pt;
+}
+
+#password-two{
+    background-color: rgb(39, 39, 100);
+    padding: 5px;
+    margin: 5px 12px;
+    color: rgb(230, 218, 114);
+    font-size: 11pt;
 }
